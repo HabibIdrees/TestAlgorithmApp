@@ -92,7 +92,7 @@ namespace TestAlgorithmApp
 
 
         //Unsorted brute Force
-        public static bool TwoSumUnSorted(int[] src, int target
+        public static bool TwoSumUnSorted(int[] src, int target)
         {
             bool result = false;
 
@@ -201,7 +201,7 @@ namespace TestAlgorithmApp
             right = MergeSort(right);
             //Merge our two sorted arrays
             result = Merge(left, right);
-            Console.WriteLine("Merge");
+            
             return result;
         }
 
