@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestAlgorithmApp
 {
-    public class GroupSumAlgoriths
+    public class GroupSumAlgorithms
     {
 
         //Given an array of sorted integers and a number k. Check if there is a pair of integers in the array that sums to K.
