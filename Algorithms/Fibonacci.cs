@@ -55,11 +55,11 @@ namespace TestAlgorithmApp.Algorithms
          * **********************************************************************************************************************************************************/
 
 		//test Method
-
+		/*
 		static void Main(string[] args)
 		{
 			int result;
-			int n = 6;
+			int n = 10;
 			result = ReturnNthOfFibonacci(n);
 
 			Console.WriteLine("If N is: "+ n + " the Fibinocci of n equals : " + result );
@@ -69,7 +69,7 @@ namespace TestAlgorithmApp.Algorithms
 
 
 		}
-
+		*/
 
 
 		}
