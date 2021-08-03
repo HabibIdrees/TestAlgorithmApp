@@ -31,7 +31,7 @@ namespace TestAlgorithmApp.Algorithms
         }
         
     
-        
+        /*
         static void Main(string[] args)
         {
 
@@ -42,6 +42,6 @@ namespace TestAlgorithmApp.Algorithms
             results = isPalin(word);
             Console.WriteLine("Is "+ word + " a Palindrome? : "+ results);
         }
-
+        */
     }
 }
