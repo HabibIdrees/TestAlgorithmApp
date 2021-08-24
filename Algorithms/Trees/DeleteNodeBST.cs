@@ -48,10 +48,10 @@ Prerequisite Insert node in a BST
                 }
                 else
                 {  //has both child
-                    int minValue = minValue(node.right);  // or maxValue(node.left)
-                    node.val = minValue;
+                    int minVal = MinValue(node.right);  // or maxValue(node.left)
+                    node.val = minVal;
 
-                    node.right = deleteNodeBST(node.right, minValue); // recursively delete the minValue node
+                    node.right = deleteNodeBST(node.right, minVal); // recursively delete the minValue node
 
                 }
             }
@@ -62,7 +62,7 @@ Prerequisite Insert node in a BST
         /*
         Get the minimum value from a BST
          */
-        public static int minValue(Node node)
+        public static int MinValue(Node node)
         {
             int minValue = node.val;
             for (; node != null; node = node.left)

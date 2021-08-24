@@ -54,14 +54,14 @@ namespace TestAlgorithmApp.Algorithms.Trees
 
             */
             Boolean isIdentical = true;
-            if (node1.Left != null && node2.Left != null)
+            if (node1.left != null && node2.left != null)
             {
-                isIdentical = IsIdentical(node1.Left, node2.Left);
+                isIdentical = IsIdentical(node1.left, node2.left);
             }
 
-            if (node1.Right != null && node2.Right != null)
+            if (node1.right != null && node2.right != null)
             {
-                isIdentical = isIdentical & IsIdentical(node1.Right, node2.Right);
+                isIdentical = isIdentical && IsIdentical(node1.right, node2.right);
             }
 
             return isIdentical;

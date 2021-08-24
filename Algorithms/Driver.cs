@@ -24,7 +24,7 @@ namespace TestAlgorithmApp.Algorithms
             node1.left = node3;
             node2.right = node4;
 
-            LevelOrderTraversal.levelOrder(root); // o/p: 0, 1, 2, 3, 4
+            LevelOrderTraversal.LevelOrder(root); // o/p: 0, 1, 2, 3, 4
             //PrintInOrder(root);
         }
 

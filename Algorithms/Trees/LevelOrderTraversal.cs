@@ -12,7 +12,7 @@ namespace TestAlgorithmApp.Algorithms.Trees
     {
 
       
-        public static void levelOrder(Node root)
+        public static void LevelOrder(Node root)
         {
             if (root == null)
             {
