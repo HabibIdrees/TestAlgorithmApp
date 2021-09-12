@@ -8,7 +8,7 @@ namespace TestAlgorithmApp.Algorithms.Trees
 {
     public class OrderTraversal
     {
-  
+  /*
 
         public static void PrintInOrder(Node node)
         {
@@ -21,7 +21,7 @@ namespace TestAlgorithmApp.Algorithms.Trees
             Console.WriteLine(node.val + ", ");
             PrintInOrder(node.right);
         }
-
+        */
 
     }
 

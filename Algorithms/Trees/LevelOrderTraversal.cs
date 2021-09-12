@@ -8,6 +8,18 @@ using System.Threading.Tasks;
 
 namespace TestAlgorithmApp.Algorithms.Trees
 {
+    public class Node
+    {
+        public  int val;
+         public Node left;
+         public Node right;
+
+        //constructor
+        public Node(int val) => this.val = val;
+
+
+
+    }
     public class LevelOrderTraversal
     {
 

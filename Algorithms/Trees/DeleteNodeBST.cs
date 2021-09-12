@@ -10,6 +10,7 @@ namespace TestAlgorithmApp.Algorithms.Trees
 Prerequisite Search for a value in BST
 Prerequisite Insert node in a BST
  */
+    
     public class DeleteNodeBST
     {
       
