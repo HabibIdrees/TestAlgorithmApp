@@ -26,10 +26,20 @@ namespace TestAlgorithmApp.Algorithms
             Console.WriteLine(result1);
             Console.WriteLine(result2);
             */
-
+            /*
             TwoSum test = new TwoSum();
             int[] arr = new int[] {99,80,30,20,1,8,3,101 };
             test.InsertionSort(arr);
+
+            */
+
+            TwoSum test = new TwoSum();
+
+            int[] result = test.TwoSumReturnIndices(new int[] {3,2,4,1,5 },6);
+
+
+            Console.WriteLine("The pair of indecies are :" + result[0] + " & "+ result[1]);
+
 
 
         }
